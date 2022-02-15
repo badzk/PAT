@@ -1,14 +1,11 @@
 #include <cstdio>
 #include <algorithm>
-#include <cstring>
 using namespace std;
-const int maxn=100010;
 
 struct node{
-    int addr;
-    int key;
-    int next;
-}link[maxn];
+    int addr,key,next;
+    bool flag;
+}link[100000];
 
  bool cmp(node a,node b){
      return a.key<b.key;
