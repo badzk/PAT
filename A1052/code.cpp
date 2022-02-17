@@ -1,6 +1,5 @@
 #include <cstdio>
 #include <algorithm>
-#include <cstring>
 using namespace std;
 const int maxn=100010;
 
